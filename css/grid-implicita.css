@@ -1,0 +1,8 @@
+@import url(stylos.css);
+
+.grid-implicita{
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+}

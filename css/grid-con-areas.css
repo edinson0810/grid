@@ -1,0 +1,32 @@
+@import url(stylos.css);
+
+.grid-area{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    'header header header header'
+    'sidebar content content content'
+    'sidebar content content content'
+    'footer footer footer footer';
+}
+
+.header{
+    grid-area: header;
+    background-color: #fff;
+
+}
+.content{
+    grid-area: content;
+    background-color: steelblue;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: brown;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: blueviolet;
+}
