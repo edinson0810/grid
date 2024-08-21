@@ -2,7 +2,7 @@
 
 .grid-implicita{
     display: grid;
-
+/* grid 4c x 3r */
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 200px);
+    grid-template-rows: repeat(2, 200px);
 }
