@@ -8,17 +8,19 @@
     'header header header header'
     'sidebar content content content'
     'sidebar content content content'
-    'sidebar footer footer footer';
+    'footer footer footer footer';
 }
 
 .header{
     grid-area: header;
-    background-color: #fff;
+    background-color: white;
+    border-bottom: 2px solid black;
 
 }
 .content{
     grid-area: content;
     background-color: steelblue;
+    border-left: 2px solid black;
 }
 
 .sidebar{
@@ -26,7 +28,8 @@
     background-color: brown;
 }
 
-.footer{
+ .footer{
     grid-area: footer;
     background-color: blueviolet;
-}
+    border-top: 2px solid white;
+} 
