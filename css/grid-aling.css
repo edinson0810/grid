@@ -2,4 +2,25 @@
 
 .grid-aling{
     display: grid;
+    /* grid de 3c x 2r */
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 200px);
+
+    justify-content: stretch;
+    /* justify-items: end; */
+    /* justify-items: start; */
+    /* justify-items: center; */
+    align-items: stretch;
+    align-items: end;
+    align-items: start;
+    align-items: center;
+
+}
+
+.grid-aling .item:nth-child(2){
+    background-color: brown;
+    color: aliceblue;
+    align-self: center;
+    justify-self: center;
+    
 }
